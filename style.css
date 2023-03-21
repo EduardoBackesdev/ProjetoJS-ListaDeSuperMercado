@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    text-align: center;
+    background: rgb(39, 189, 39);
+    padding: 10px 0px;
+    height: 50px;
+    color: white;
+}
+
+.lista-cadastro{
+    display: flex;
+    justify-content: center;
+}
+
+.lista-cadastro input{
+    margin: 10px 0px;
+    height: 30px;
+    margin-right: 10px;
+    width: 400px;
+    padding-left: 10px;
+}
+
+.lista-cadastro input[type=submit]{
+    background-color: rgb(39, 189, 39);
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.lista-produtos{
+    margin-top: 20px;
+    padding-bottom: 7px;
+}
+
+.produtos{
+    display: flex;
+    border-bottom: 1px solid;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding-left: 65px;
+    
+    
+    
+}
+
+.produtos h3{
+    margin-right: 350px;
+}
+
+.valor-produto-total{
+    margin-left: 60px;
+
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+button{
+    width: 200px;
+    height: 35px;
+    background-color: rgb(39, 189, 39);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    
+    
+}
+
+
+
